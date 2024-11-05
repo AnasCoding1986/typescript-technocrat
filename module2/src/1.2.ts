@@ -29,7 +29,14 @@ interface rool2 {
     [index: number] : number
 }
 
-const one : rool1 = [1,2,3]
+const one : rool1 = [1,2,3];
+
+type Add1 = (num1 : number, num2 : number) => number;
+interface Add2 {
+    (num1 : number, num2 : number): number
+}
+
+const add : Add2 =(num1,num2) => (num1+num2) 
 
 
 
