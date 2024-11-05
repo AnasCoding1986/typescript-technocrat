@@ -1,0 +1,16 @@
+{
+//
+// Interface , type vs interface
+
+
+
+
+
+
+
+
+
+
+
+//
+}
