@@ -11,7 +11,17 @@
 
     type res2 = keyof Vehicle;
 
-    // Constraint using key of not finished
+    const user = {
+        name: "tretret",
+        id: "312321",
+        place: "Sylhet"
+    }
+
+    const getValue = <x,y extends keyof x>(obj:x,key:y) => {
+        return obj[key]
+    }
+
+    getValue(user,"name")
 
 
 
