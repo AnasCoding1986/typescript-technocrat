@@ -3,16 +3,20 @@
     // Class and object
 
     class Animal{
-        name: string;
-        specis: string;
-        sound: string;
+        // name: string;
+        // specis: string;
+        // sound: string;
 
-        constructor( name: string, specis: string, sound: string){
-            this.name= name;
-            this.specis= specis;
-            this.sound= sound;
+        // Parameter Properties
+
+        constructor( public name: string, public specis: string, public sound: string){
+            // this.name= name;
+            // this.specis= specis;
+            // this.sound= sound;
         }
     }
+
+    const dog = new Animal("German Shaferd", "dog", "ghew ghew")
 
 
 
