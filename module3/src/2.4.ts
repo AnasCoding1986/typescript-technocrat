@@ -9,7 +9,7 @@
             this.species=species
         }
         makeSound(){
-            console.log(`${this.name} make sound`);
+            console.log(`${this.name} make sound 11/11 demo comment`);
         }
     }
 
