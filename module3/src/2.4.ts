@@ -11,6 +11,7 @@
         makeSound(){
             console.log(`${this.name} make sound 11/11 demo comment`);
             console.log(`${this.name} make sound 12/11 demo comment`);
+            console.log(`${this.name} make sound 13/11 demo comment`);
         }
     }
 
