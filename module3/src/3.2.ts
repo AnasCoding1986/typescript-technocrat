@@ -37,7 +37,7 @@
         }
     }
 
-    const teacher1 = new Teacher("sara", 5, "Sylhet", "professor")
+    const teacher1 = new Teacher("sara", 5, "Sylhet", "professor", "new teacher")
 
 
 
