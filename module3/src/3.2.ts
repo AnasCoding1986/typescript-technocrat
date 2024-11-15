@@ -38,6 +38,7 @@
     }
 
     const teacher1 = new Teacher("sara", 5, "Sylhet", "professor", "new teacher")
+    const teacher2 = new Teacher("sara", 5, "Sylhet", "professor")
 
 
 
